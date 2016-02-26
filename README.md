@@ -1,2 +1,2 @@
 # taraojo.github.io
-Portfolio website
+Portfolio web application showcasing my projects.
