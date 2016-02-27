@@ -1,0 +1,29 @@
+{
+  "name": "taraojo.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio web application",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taraojo/taraojo.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "work"
+  ],
+  "author": "Tara Ojo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taraojo/taraojo.github.io/issues"
+  },
+  "homepage": "https://github.com/taraojo/taraojo.github.io#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
