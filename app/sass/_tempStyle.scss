@@ -1,13 +1,8 @@
-body {
-  padding-bottom: 70px;
-}
-
 .jumbotron {
   background:$colour--highlight;
   color:#000;
 }
 .jumbotron a{
-  color:#000;
   text-decoration: underline;
 
   &:hover {
@@ -20,7 +15,7 @@ body {
 }
 .workItem:hover {
   text-decoration:none;
-  background: #EFFAF9;
+  background: #FAED8E;
 }
 .workItem h2 {
   color: #333;
