@@ -1,0 +1,26 @@
+.footer {
+  background-color: $colour--highlight;
+  padding: 2rem;
+  text-align: center;
+
+  &__site-links {
+    font-weight: 300;
+    margin-bottom: 1rem;
+
+    a {
+      border-left: solid thin $colour--general-font;
+      margin-left: 0.5rem;
+      padding-left: 0.5rem;
+
+      &:first-child {
+        border-left: none;
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+  }
+
+  &__social-links {
+    margin-bottom: 1rem;
+  }
+}
