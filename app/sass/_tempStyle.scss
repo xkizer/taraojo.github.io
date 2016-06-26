@@ -1,0 +1,27 @@
+.jumbotron {
+  background:$colour--highlight;
+  color:$colour--general-font;
+  text-align: center;
+}
+
+.workItem {
+  cursor:pointer;
+}
+.workItem:hover {
+  text-decoration:none;
+  background: $colour--highlight-light;
+}
+.workItem h2 {
+  color: #333;
+}
+.workItem p {
+  color: #333;
+}
+.workItem img{
+  vertical-align:top;
+  width:100%;
+}
+
+.panel-default{
+  border-radius:1px;
+}

@@ -1,8 +1,11 @@
 var gulp        = require('gulp');
 var deploy      = require('gulp-gh-pages');
 
+
+require('./tasks/sass');
+
 var filesToMove = [
-    './index.html',
+    './app/index.html',
     './CNAME',
     './README.md',
     './resources/**/*'
@@ -19,4 +22,9 @@ gulp.task('build', function () {
 gulp.task('deploy', ['build'], function () {
     return gulp.src("./dist/**/*")
         .pipe(deploy({branch: 'master'}))
+});
+
+//Watch task
+gulp.task('default',function() {
+    gulp.watch('./app/sass/**/*.scss',['compile-sass']);
 });

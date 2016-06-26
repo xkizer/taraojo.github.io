@@ -1,0 +1,81 @@
+{
+  "work":[
+    {
+      "companyName": "Telefonica UK",
+      "projectName": "Learning Zone",
+      "projectDates": [
+        {"from": "September 2013"},
+        {"to": "September 2014"}
+      ],
+      "description": "<p>I worked on the learning zone at Telefonica to continually improve and develop how content is viewed and interacted with within the website. This led to the complete restructure of the user experience, in a project I led.</p><p>It was important to improve the usability of the system as much as possible within the restrictions, while keeping the look and feel consistent with Telefonica's brand.</p><p>The images show the assets I created for the new learning zone.</p>",
+      "roles": [
+        "UI Design",
+        "UX Design",
+        "Front-End Development"
+      ],
+      "images": [
+        {"url": "/resources/images/TefThumb.jpg", "caption": "Homepage Section - UI Sketch"},
+        {"url": "/resources/images/TefHome.jpg", "caption": "Homepage - UI Sketch"},
+        {"url": "/resources/images/TefWireframe.jpg", "caption": "Homepage - Wireframe Design"},
+        {"url": "/resources/images/TefProducts.gif", "caption": "Content Page - UI Sketch"}
+      ]
+    },
+    {
+      "companyName": "Aston University LSS",
+      "projectName": "Loan System",
+      "projectDates": [
+        {"from": "June 2013"},
+        {"to": "September 2013"}
+      ],
+      "description": "<p>I completed an internship at AASE, I worked a project with the Aston University Languages and Social Sciences department to digitize their paper-based loan system.</p><p>I worked with the LSS department to create a system that worked on the desktop within their book and DVD area, this system enables users to check in/out books and DVDs.</p><p>The images the wireframes developed for the system.</p>",
+      "roles": [
+        "UI Design",
+        "UX Design"
+      ],
+      "images": [
+        {"url": "/resources/images/LoanUserHome.jpg", "caption": "Homepage for Student - Wireframe Design"},
+        {"url": "/resources/images/LoanLogin.png", "caption": "Login Page - Wireframe Design"},
+        {"url": "/resources/images/LoanAccount.jpg", "caption": "User Account page - Wireframe Design"},
+        {"url": "/resources/images/LoanBooks.jpg", "caption": "Browse Books Page - Wireframe Design"}
+      ]
+    },
+    {
+      "companyName": "Greater Birmingham & Solihull LEP",
+      "projectName": "Strategy for Growth",
+      "projectDates": [
+        {"from": "February 2013"},
+        {"to": "September 2013"}
+      ],
+      "description": "<p>While working for AASE I also worked on a project with the Greater Birmingham and Solihull Local Enterprise Partnership. The aim of this project was to create a digital version of their strategy for growth.</p></p>The GBS LEP wanted to reach their audience with a different approach, I worked with them to design an online experience that also enabled them to update their content via a content management system.</p><p>The images show some of the assets I created during the project.</p>",
+      "roles": [
+        "UI Design",
+        "Front-End Development"
+      ],
+      "images": [
+        {"url": "/resources/images/gbsHomepage.jpg", "caption": "Homepage - HTML/CSS"},
+        {"url": "/resources/images/gbsPortfolio.jpg", "caption": "Portal Page - HTML/CSS"},
+        {"url": "/resources/images/gbsSearch.jpg", "caption": "Search page - HTML/CSS"},
+        {"url": "/resources/images/gbsContact.png", "caption": "Contact Page - UI Sketch"}
+      ]
+    },
+    {
+      "companyName": "Aston University",
+      "projectName": "Student Cooking Guide",
+      "projectDates": [
+        {"from": "February 2013"},
+        {"to": "September 2013"}
+      ],
+      "description": "<p>While working for AASE I also worked on a project with the Greater Birmingham and Solihull Local Enterprise Partnership. The aim of this project was to create a digital version of their strategy for growth.</p></p>The GBS LEP wanted to reach their audience with a different approach, I worked with them to design an online experience that also enabled them to update their content via a content management system.</p><p>The images show some of the assets I created during the project.</p>",
+      "roles": [
+        "UI Design",
+        "Front-End Development"
+      ],
+      "images": [
+        {"url": "http://taraojo.com/resources/images/gbsHomepage.jpg", "caption": "Homepage - HTML/CSS"},
+        {"url": "http://taraojo.com/resources/images/gbsPortfolio.jpg", "caption": "Portal Page - HTML/CSS"},
+        {"url": "http://taraojo.com/resources/images/gbsSearch.jpg", "caption": "Search page - HTML/CSS"},
+        {"url": "http://taraojo.com/resources/images/gbsContact.png", "caption": "Contact Page - UI Sketch"}
+      ]
+    }
+  ]
+}

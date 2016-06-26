@@ -1,0 +1,12 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+a {
+  color: $colour--general-font;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
