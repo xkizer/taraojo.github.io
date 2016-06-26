@@ -1,13 +1,7 @@
 .jumbotron {
   background:$colour--highlight;
-  color:#000;
-}
-.jumbotron a{
-  text-decoration: underline;
-
-  &:hover {
-    text-decoration: none;
-  }
+  color:$colour--general-font;
+  text-align: center;
 }
 
 .workItem {
@@ -15,7 +9,7 @@
 }
 .workItem:hover {
   text-decoration:none;
-  background: #FAED8E;
+  background: $colour--highlight-light;
 }
 .workItem h2 {
   color: #333;

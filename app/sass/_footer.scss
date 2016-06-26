@@ -11,11 +11,16 @@
       border-left: solid thin $colour--general-font;
       margin-left: 0.5rem;
       padding-left: 0.5rem;
+      text-decoration: none;
 
       &:first-child {
         border-left: none;
         margin-left: 0;
         padding-left: 0;
+      }
+
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
