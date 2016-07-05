@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, Arial, sans-serif;
+  background: $colour--highlight;
 }
 
 a {
@@ -9,4 +10,14 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+.content {
+  z-index: 10;
+  top: 130px;
+  position: relative;
+}
+main {
+  background: #ffffff;
+  padding-top: 2rem;
 }
