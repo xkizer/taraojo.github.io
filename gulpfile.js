@@ -2,3 +2,4 @@
 require('./tasks/sass');
 require('./tasks/build');
 require('./tasks/watch');
+require('./tasks/deploy');
