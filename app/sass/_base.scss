@@ -26,7 +26,6 @@ a {
   }
 }
 
-
 main {
   background: $colour--background;
 }
@@ -49,7 +48,18 @@ main {
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 767px) {
+  .hero-image {
+    display: block;
+
+    img {
+      top:-45rem;
+      max-width: 250px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
   .hero-image {
     display: block;
 
@@ -65,6 +75,6 @@ main {
   font-weight: 700;
   font-size: 18px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2.5rem;
 }
 
