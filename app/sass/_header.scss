@@ -26,6 +26,12 @@
     line-height: 30px
   }
 
+  @media (max-width: 767px) and (min-width: 600px){
+    &__subtitle {
+      width: 60%;
+    }
+  }
+
   &__logo {
     vertical-align: bottom;
   }
@@ -40,5 +46,16 @@
       text-decoration: none;
       font-size: 18px;
     }
+
+    a:hover {
+      background: $colour--general-font;
+      color: $colour--highlight;
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  .header {
+    text-align: center;
   }
 }

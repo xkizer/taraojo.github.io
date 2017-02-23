@@ -1,5 +1,6 @@
 .portfolio {
   margin-bottom: 3rem;
+  padding-top: 5rem;
 
   &__item {
     border-radius:1px;
@@ -22,5 +23,24 @@
 
   img {
     max-height: 185px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 381px) {
+    img {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    img {
+      width: 100%;
+      margin-bottom: 0;
+    }
   }
 }
