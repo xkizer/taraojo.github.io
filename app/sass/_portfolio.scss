@@ -1,0 +1,26 @@
+.portfolio {
+  margin-bottom: 3rem;
+
+  &__item {
+    border-radius:1px;
+    text-align: center;
+    padding-bottom: 15px;
+
+    .panel {
+      cursor: pointer;
+    }
+
+    &:hover .panel {
+      background: $colour--background;
+    }
+  }
+
+  &__item-header {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  img {
+    max-height: 185px;
+  }
+}

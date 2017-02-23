@@ -1,6 +1,8 @@
 body {
   font-family: Roboto, Arial, sans-serif;
   background: $colour--highlight;
+  margin: 2rem 0 0;
+  font-size: 1.2rem;
 }
 
 a {
@@ -14,10 +16,31 @@ a {
 
 .content {
   z-index: 10;
-  top: 130px;
+  top: 400px;
   position: relative;
 }
+
 main {
-  background: #ffffff;
-  padding-top: 2rem;
+  background: $colour--background;
+  padding-top: 20rem;
+
+  img {
+    width: 100%;
+  }
 }
+
+
+.hero-image {
+  position:absolute;
+  top:-55rem;
+  right:0;
+  width: 70%;
+}
+
+.page-heading {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+

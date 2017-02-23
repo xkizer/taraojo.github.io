@@ -8,111 +8,116 @@
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 </head>
 <body>
 
-<!--So you decided to check out my code? Great!-->
-<!--This temporary portfolio page was developed using React-->
 <header class="header">
-    <h1>
-        Tara Ojo
-    </h1>
-</header>
-
-<div class="content">
-    <div class="header__shadow"></div>
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <p>
-                        Hi! Take a look through my work and get in touch by emailing me at
-                        <a href="mailto:tara.ojo@gmail.com">tara.ojo@gmail.com</a> if you have any
-                        questions or feedback. Thanks, Tara
-                    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div>
+                    <img class="header__logo" src="./assets/images/logoWhite.png"/>
+                    <span class="header__title">T A R A &nbsp; O J O</span>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
-                    <div class="panel panel-default">
-                        <div class="workItem" data-toggle="modal" data-target="#tefModal">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./assets/images/TefThumb.jpg" alt="Telefonica Thumbnail">
-                                </div>
-                                <div class="col-md-8">
-                                    <h2>Telefonica UK</h2>
-                                    <p><strong>UI Design, UX Design, Front-End Development</strong></p>
-                                    <p>
-                                        I worked at Telefonica on a 12-month internship in their Learning &amp;
-                                        Development team, during this time I worked on pages throughout the Learning
-                                        Zone portal, designing great user experiences for their users.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-6 header__subtitle">
+                        Digital developer working at Marks and Spencer. Previously at Telefonica UK.
                     </div>
-                    <div class="panel panel-default">
-                        <div class="workItem" data-toggle="modal" data-target="#astonModal">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./assets/images/LoanThumb.jpg" alt="Loan System Thumbnail">
-                                </div>
-                                <div class="col-md-8">
-                                    <h2>Aston University LSS</h2>
-                                    <p><strong>UI Design, UX Design</strong></p>
-                                    <p>
-                                        I completed an internship at AASE, I worked a project with the Aston University
-                                        Languages and Social Sciences department to digitize their paper-based loan
-                                        system.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="workItem" data-toggle="modal" data-target="#gbsModal">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./assets/images/gbsThumb.jpg" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <h2>Greater Birmingham and Solihull LEP</h2>
-                                    <p><strong>UI Design, Front-End Development</strong></p>
-                                    <p>
-                                        While working for AASE I also worked on a project with the Greater Birmingham
-                                        and Solihull Local Enterprise Partnership. The aim of this project was to create
-                                        a digital version of their strategy for growth.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="workItem" data-toggle="modal" data-target="#idModal">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./assets/images/tscgThumb.jpg" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <h2>Interaction Design, Coursework</h2>
-                                    <p><strong>UI Design, UX Design</strong></p>
-                                    <p>
-                                        My degree course required me to build a working prototype for a student cooking
-                                        guide. I went through many stages of the design process from background
-                                        research,
-                                        persona building, wireframing to UI sketching. <!--The final deliverable was built
-										using InVision.-->
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 header__cta">
+                        <a href="#portfolio">
+                            P O R T F O L I O
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</header>
+
+<div class="content">
+    <div class="header__shadow"></div>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col col-sm-6 col-sm-offset-6">
+                            <img src="assets/images/MSPhone.png" alt="Mobile phone showing M&S product page"
+                                 class="hero-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="portfolio" class="portfolio">
+                <h2 class="page-heading">
+                    P O R T F O L I O
+                </h2>
+                <div class="row">
+                    <div class="portfolio__item col col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+                        <div class="panel panel-default" style="cursor: default;background: white !important;">
+                            <h3 class="portfolio__item-header">
+                                M&amp;S.com
+                            </h3>
+                            <p>Front-End Development [Angular]</p>
+                            <img src="./assets/images/MSDesktop.jpg" alt="Marks and Spencer Thumbnail">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item col col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+                        <div class="panel panel-default" style="cursor: default;background: white !important;">
+                            <h3 class="portfolio__item-header">
+                                MyGRaCE
+                            </h3>
+                            <p>Front-End Development [JS]</p>
+                            <img src="./assets/images/myGraceThumb.jpg" alt="My Grace Thumbnail">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item col col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+                        <div class="panel panel-default" data-toggle="modal" data-target="#tefModal">
+                            <h3 class="portfolio__item-header">Telefonica UK</h3>
+                            <p>Front-End Development [JS], UI Design, UX Design</p>
+                            <img src="./assets/images/TefThumb.jpg" alt="Telefonica Thumbnail">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item col col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+                        <div class="panel panel-default" data-toggle="modal" data-target="#astonModal">
+                            <h3 class="portfolio__item-header">Aston University LSS</h3>
+                            <p>UI Design, UX Design</p>
+                            <img src="./assets/images/LoanThumb.jpg" alt="Loan System Thumbnail">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item col col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+                        <div class="panel panel-default" data-toggle="modal" data-target="#gbsModal">
+                            <h3 class="portfolio__item-header">Greater Birmingham and Solihull LEP</h3>
+                            <p>UI Design, Front-End Development [UI]</p>
+                            <img src="./assets/images/gbsThumb.jpg" alt="White paper thumbnail">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item col col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+                        <div class="panel panel-default" data-toggle="modal" data-target="#idModal">
+                            <h3 class="portfolio__item-header">The Student Cooking Guide</h3>
+                            <p>UI Design, UX Design</p>
+                            <img src="./assets/images/tscgThumb.jpg" alt="Student cooking guide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="header__shadow"></div>
     </main>
 
 
@@ -158,16 +163,16 @@
                     <div class="col-md-4">
                         <p><strong>September 2013 - September 2014</strong></p>
                         <p>
-                            I worked on the learning zone at Telefonica to continually improve and develop
-                            how content is viewed and interacted with within the website. This led to the complete
+                            I worked on the learning zone at Telefonica to improve and develop
+                            how content is viewed and interacted with on the website. This led to the complete
                             restructure of the user experience, in a project I led.
                         </p>
                         <p>
                             It was important to improve the usability of the system as much as possible within the
-                            restrictions, while keeping the look and feel consistent with Telefonica's brand.
+                            restrictions of the platform, while keeping the look and feel consistent with Telefonica's brand.
                         </p>
                         <p>
-                            The images show the assets I created for the new learning zone.
+                            The images show the assets I designed and implemented for the new learning zone.
                         </p>
                     </div>
                     <div class="col-md-8">
@@ -244,15 +249,15 @@
                     <div class="col-md-4">
                         <p><strong>June 2013 - September 2013</strong></p>
                         <p>
-                            I completed an internship at AASE, I worked a project with the Aston University
-                            Languages and Social Sciences department to digitize their paper-based loan system.
+                            I completed an internship at AASE, I worked on a project with the Aston University
+                            Languages and Social Sciences (LSS) department to digitize their paper-based loan system.
                         </p>
                         <p>
-                            I worked with the LSS department to create a system that worked on the desktop within
+                            I worked with the LSS department to design a system that worked on the desktop within
                             their book and DVD area, this system enables users to check in/out books and DVDs.
                         </p>
                         <p>
-                            The images the wireframes developed for the system.
+                            The images show the wireframes developed for the system.
                         </p>
                     </div>
                     <div class="col-md-8">
@@ -329,7 +334,7 @@
                         <p><strong>February 2013 - September 2013</strong></p>
                         <p>
                             While working for AASE I also worked on a project with the Greater Birmingham
-                            and Solihull Local Enterprise Partnership. The aim of this project was to create
+                            and Solihull Local Enterprise Partnership (GBS LEP). The aim of this project was to create
                             a digital version of their strategy for growth.
                         </p>
                         <p>
@@ -338,7 +343,7 @@
                             content via a content management system.
                         </p>
                         <p>
-                            The images show some of the assets I created during the project.
+                            The images show some of the assets I designed and implemented during the project.
                         </p>
                     </div>
                     <div class="col-md-8">
@@ -406,14 +411,14 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                         aria-hidden="true">&times;</span></button>
-                <h3 class="modal-title" id="myModalLabel4">Coursework - Student Cooking Guide</h3>
+                <h3 class="modal-title" id="myModalLabel4">The Student Cooking Guide</h3>
             </div>
             <div class="modal-body">
                 <div class="row">
                     <div class="col-md-4">
                         <p><strong>September 2014 - December 2014</strong></p>
                         <p>
-                            My degree course required me to build a working prototype for a student cooking
+                            I built a working prototype for a student cooking
                             guide. I went through many stages of the design process from background research,
                             persona building, wireframing to UI sketching.
                         </p>
@@ -422,7 +427,7 @@
                             clinic.
                         </p>
                         <p>
-                            A working prototype in inVision can be viewed
+                            The working prototype in inVision can be viewed
                             <a href="https://invis.io/WH3UHWB87" target="_blank">here</a>.
                         </p>
                     </div>
@@ -495,10 +500,10 @@
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
         a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
+            m = s.getElementsByTagName(o)[0];
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m)

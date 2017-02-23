@@ -1,16 +1,44 @@
 .header {
   position: fixed;
-  z-index: -1;
   color:$colour--general-font;
-  text-align: center;
   padding: 30px 0;
   width: 100%;
-}
 
-.header__shadow {
-  background: -webkit-linear-gradient($colour--transparent-white, $colour--transparent-grey); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient($colour--transparent-white, $colour--transparent-grey); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient($colour--transparent-white, $colour--transparent-grey); /* For Firefox 3.6 to 15 */
-  background: linear-gradient($colour--transparent-white, $colour--transparent-grey); /* Standard syntax */
-  height: 10px;
+  &__shadow {
+    background: -webkit-linear-gradient($colour--transparent-white, $colour--transparent-grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($colour--transparent-white, $colour--transparent-grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($colour--transparent-white, $colour--transparent-grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($colour--transparent-white, $colour--transparent-grey); /* Standard syntax */
+    height: 10px;
+  }
+
+  &__title {
+    position: relative;
+    left: -30px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 70px;
+    line-height: 30px
+  }
+
+  &__logo {
+    vertical-align: bottom;
+  }
+
+  &__cta {
+    margin-top: 70px;
+
+    a {
+      border: solid 3px $colour--general-font;
+      padding: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  }
 }
