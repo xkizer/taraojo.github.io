@@ -1,7 +1,14 @@
+h3,
+.medium-text {
+  font-size: 16px; }
+
+h4,
+.small-text {
+  font-size: 14px; }
+
 body {
   font-family: Roboto, Arial, sans-serif;
   background: #F9EC88;
-  margin: 2rem 0 0;
   font-size: 1.2rem; }
 
 a {
@@ -12,19 +19,23 @@ a {
 
 .content {
   z-index: 10;
-  top: 400px;
+  top: 100px;
   position: relative; }
+
+.content.home {
+  top: 420px; }
 
 @media (max-width: 768px) {
   .content {
     top: 450px; } }
 
 main {
-  background: #f7f7f7; }
+  background: #f7f7f7;
+  padding-bottom: 5rem; }
 
 @media (min-width: 768px) {
-  main {
-    padding-top: 20rem; } }
+  main.home {
+    padding: 20rem 0 0; } }
 
 .hero-image {
   display: none; }
@@ -61,6 +72,8 @@ main {
   color: #000000;
   padding: 30px 0;
   width: 100%; }
+  .header--margin {
+    margin: 2rem 0 0; }
   .header__shadow {
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.1));
     /* For Safari 5.1 to 6.0 */
@@ -73,9 +86,14 @@ main {
     height: 10px; }
   .header__title {
     position: relative;
-    left: -30px;
     font-weight: 700;
     font-size: 18px; }
+    .header__title--indent {
+      left: -30px; }
+    .header__title--center {
+      text-align: center; }
+    .header__title--light {
+      font-weight: 400; }
   .header__subtitle {
     font-size: 20px;
     font-weight: 700;
@@ -149,3 +167,22 @@ main {
     .portfolio img {
       width: 100%;
       margin-bottom: 0; } }
+
+.cv section {
+  margin-top: 8rem; }
+
+.cv__employment {
+  margin-bottom: 3rem; }
+
+.cv__qualifications td {
+  min-width: 7rem; }
+
+.cv__technologies h4 {
+  font-size: 14px; }
+
+.cv__technologies ul {
+  padding-left: 15px; }
+
+.cv__technologies li {
+  list-style: none;
+  display: inline-block; }
