@@ -1,0 +1,31 @@
+.cv {
+
+  section {
+    margin-top: 8rem;
+  }
+
+  &__employment {
+    margin-bottom: 3rem;
+  }
+
+  &__qualifications {
+    td {
+      min-width: 7rem;
+    }
+  }
+
+  &__technologies {
+    h4 {
+      font-size: 14px;
+    }
+
+    ul {
+      padding-left: 15px;
+    }
+
+    li {
+      list-style: none;
+      display: inline-block;
+    }
+  }
+}

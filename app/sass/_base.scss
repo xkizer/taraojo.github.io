@@ -1,7 +1,6 @@
 body {
   font-family: Roboto, Arial, sans-serif;
   background: $colour--highlight;
-  margin: 2rem 0 0;
   font-size: 1.2rem;
 }
 
@@ -16,8 +15,12 @@ a {
 
 .content {
   z-index: 10;
-  top: 400px;
+  top: 100px;
   position: relative;
+}
+
+.content.home {
+  top: 420px;
 }
 
 @media (max-width: 768px) {
@@ -28,11 +31,12 @@ a {
 
 main {
   background: $colour--background;
+  padding-bottom: 5rem;
 }
 
 @media (min-width: 768px) {
-  main {
-    padding-top: 20rem;
+  main.home {
+    padding: 20rem 0 0;
   }
 }
 
