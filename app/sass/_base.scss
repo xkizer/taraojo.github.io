@@ -24,7 +24,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  .content {
+  .content.home {
     top: 450px;
   }
 }
@@ -34,9 +34,13 @@ main {
   padding-bottom: 5rem;
 }
 
+main.home {
+  padding-bottom: 0;
+}
+
 @media (min-width: 768px) {
   main.home {
-    padding: 20rem 0 0;
+    padding-top: 20rem;
   }
 }
 

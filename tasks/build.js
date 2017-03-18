@@ -7,7 +7,8 @@ var rootFiles = [
 var appFiles = [
     './app/index.html',
     './app/css/style.css',
-    './app/assets/**/*'
+    './app/assets/**/*',
+    './app/views/**/*'
 ];
 
 gulp.task('build-root-files', function () {
