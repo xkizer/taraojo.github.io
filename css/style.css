@@ -26,7 +26,7 @@ a {
   top: 420px; }
 
 @media (max-width: 768px) {
-  .content {
+  .content.home {
     top: 450px; } }
 
 main {
@@ -167,6 +167,9 @@ main {
     .portfolio img {
       width: 100%;
       margin-bottom: 0; } }
+
+.cv main {
+  max-width: 600px; }
 
 .cv section {
   margin-top: 8rem; }
