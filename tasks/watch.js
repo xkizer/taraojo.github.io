@@ -1,6 +1,15 @@
 var gulp        = require('gulp');
+var browserSync = require('browser-sync').create();
 
-//Compile sass on change
-gulp.task('default',function() {
+gulp.task('serve', ['compile-sass'],function() {
+    browserSync.init({
+        server: {
+            baseDir: "./app/"
+        }
+    });
+
     gulp.watch('./app/sass/**/*.scss',['compile-sass']);
+    gulp.watch('./app/**/*.html').on('change', browserSync.reload);
 });
+
+gulp.task('default', ['serve']);

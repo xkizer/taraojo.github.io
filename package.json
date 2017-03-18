@@ -4,7 +4,7 @@
   "description": "Portfolio web application",
   "main": "app/index.html",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "gulp",
     "test": "test"
   },
   "repository": {
@@ -31,6 +31,7 @@
     "react-dom": "^0.14.7"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
     "gulp-sass": "^2.3.2"

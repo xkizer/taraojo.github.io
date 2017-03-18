@@ -1,13 +1,15 @@
-var gulp        = require('gulp');
+let gulp        = require('gulp');
 
-var rootFiles = [
+let rootFiles = [
     './CNAME',
     './README.md'
 ];
-var appFiles = [
+let appFiles = [
     './app/index.html',
     './app/css/style.css',
-    './app/assets/**/*',
+    './app/assets/**/*'
+];
+let viewFiles = [
     './app/views/**/*'
 ];
 
@@ -18,7 +20,17 @@ gulp.task('build-root-files', function () {
 
 gulp.task('build-app-files', function () {
     return gulp.src(appFiles, { base: './app/' })
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('dist'));
 });
 
-gulp.task('build', ['build-root-files', 'build-app-files']);
+gulp.task('build-view-files', function () {
+    return gulp.src(viewFiles, { base: './app/views/' })
+        .pipe(gulp.dest('dist'));
+});
+
+gulp.task('build',
+    [
+        'build-root-files',
+        'build-app-files',
+        'build-view-files'
+    ]);
