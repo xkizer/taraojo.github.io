@@ -1,7 +1,10 @@
 .cv {
+  h3 {
+    font-weight: 700;
+  }
 
   .container {
-    max-width: 600px;
+    max-width: 630px;
   }
 
   section {
@@ -9,7 +12,7 @@
   }
 
   &__employment {
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
   }
 
   &__qualifications {
@@ -20,7 +23,7 @@
 
   &__technologies {
     h4 {
-      font-size: 14px;
+      font-size: $size--base-font;
     }
 
     ul {

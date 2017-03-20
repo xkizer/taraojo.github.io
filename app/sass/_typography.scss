@@ -1,9 +1,17 @@
 h3,
 .medium-text {
-  font-size: 16px;
+  font-size: $size--medium-font;
 }
 
 h4,
+.base-text {
+  font-size: $size--base-font;
+}
+
 .small-text {
-  font-size: 14px;
+  font-size: $size--small-font;
+}
+
+.tiny-text {
+  font-size: $size--tiny-font;
 }

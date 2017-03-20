@@ -19,7 +19,7 @@
   &__title {
     position: relative;
     font-weight: 700;
-    font-size: 18px;
+    font-size: $size--main-heading;
 
     &--indent {
       left: -30px;
@@ -59,7 +59,7 @@
       padding: 1rem;
       font-weight: 700;
       text-decoration: none;
-      font-size: 18px;
+      font-size: $size--main-heading;
     }
 
     a:hover {
