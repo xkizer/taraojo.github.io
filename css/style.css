@@ -202,3 +202,7 @@ main.home {
 .cv__technologies li {
   list-style: none;
   display: inline-block; }
+
+.letter-spaced {
+  letter-spacing: 0.28em;
+}
